@@ -2,11 +2,11 @@
     
 <section class="my-3" id="section-intro">
 
-# Intro
+# Giriş
 
-**smmbooster** is an online social media marketing tool (web application) built using laravel, this application allows you to sell your Social Media Marketing Services or resell other SMM panel services via api providers . You can provide quality and cheap SMM Services to your customers, they can buy all packages or services like Facebook likes, Instagram followers, Twitter followers, Youtube Viewers, website traffic and many more using your panel. You can create as many services & packages according to your expertise, this is a completely dynamic panel. Whether it is something you need for your social media accounts or you are a SMM services reseller.
+**smmbooster**, Laravel kullanılarak oluşturulmuş çevrimiçi bir sosyal medya pazarlama aracıdır. Bu uygulama, Sosyal Medya Pazarlama Hizmetlerinizi satmanıza veya api sağlayıcıları aracılığıyla diğer SMM panel hizmetlerini yeniden satmanıza olanak tanır. Müşterilerinize Facebook beğenileri, Instagram takipçileri, Twitter takipçileri, Youtube izleyicileri, web sitesi trafiği ve daha fazlası gibi tüm paketleri veya hizmetleri sunabilirler. Paneliniz tamamen dinamiktir ve sosyal medya hesaplarınız için veya SMM hizmetleri bayisi olarak kullanılabilir. Bu sizin sosyal medya hesaplarınız için mi yoksa bir SMM hizmetleri bayisi misiniz? İhtiyacınıza uygun birçok hizmeti ve paketi oluşturabilirsiniz.
 <div>
-   :heart: If you like this script please give me a star ⭐ to encourage me to add more features 
+   :heart: Eğer bu betiği beğenirseniz lütfen bana bir yıldız ⭐ vererek daha fazla özellik eklememe teşvik edin
  </div>
 
 </section>
@@ -16,21 +16,21 @@
 # Demo
 
 <div>
-  🔗   <a href="https://smmbooster.mediarayek.com" target="_blank"> GO TO DEMO VERSION</a>
+  🔗   <a href="https://smmbooster.mediarayek.com" target="_blank"> DEMO VERSİYONUNA GİT</a>
 </div>
     ------------------------------------
 <ul>
      <li><strong>Admin : </strong></li>
        <div>
-           Email : <strong>admin@admin.com</strong><br>
-           Password : <strong>admin123</strong> <br>
-           Link : <strong><a href="https://smmbooster.mediarayek.com/admin/login" target="_blank">admin dashboard</a></strong>
+           E-posta : <strong>admin@admin.com</strong><br>
+           Şifre : <strong>admin123</strong> <br>
+           Bağlantı : <strong><a href="https://smmbooster.mediarayek.com/admin/login" target="_blank">admin kontrol paneli</a></strong>
        </div>
-       <li><strong>User : </strong></li>
+       <li><strong>Kullanıcı : </strong></li>
        <div>
-           Email : <strong>user@user.com</strong><br>
-           Password : <strong>user123</strong><br>
-           Link : <strong><a href="https://smmbooster.mediarayek.com/login" target="_blank">user dashboard</a></strong>
+           E-posta : <strong>user@user.com</strong><br>
+           Şifre : <strong>user123</strong><br>
+           Bağlantı : <strong><a href="https://smmbooster.mediarayek.com/login" target="_blank">kullanıcı kontrol paneli</a></strong>
        </div>
  </ul>
 </section>
@@ -38,9 +38,9 @@
 
 <section class="my-3" id="section-requirements">
 
-# Requirements
+# Gereksinimler
 
-**smmbooster** script is built with Laravel 8, The Laravel framework 8 has a few system requirements. You should ensure that your web server has the following minimum PHP version and extensions
+**smmbooster** betiği Laravel 8 ile oluşturulmuştur. Laravel çerçevesinin 8 sürümü için aşağıdaki PHP sürümü ve uzantılara sahip olduğunuzdan emin olmalısınız
 
 <table class="table mb-3 table-bordered table-hover table-vcenter">
 
@@ -48,7 +48,7 @@
 
 <tr>
 
-<td>Server</td>
+<td>Sunucu</td>
 
 <td>Apache/Nginx</td>
 
@@ -56,9 +56,9 @@
 
 <tr>
 
-<td>PHP version</td>
+<td>PHP sürümü</td>
 
-<td>PHP version >= 7.3</td>
+<td>PHP sürümü >= 7.3</td>
 
 </tr>
 
@@ -66,7 +66,7 @@
 
 <td>allow_url_fopen</td>
 
-<td>`allow_url_fopen=On` (php.ini file)</td>
+<td>`allow_url_fopen=On` (php.ini dosyası)</td>
 
 </tr>
 
@@ -74,7 +74,7 @@
 
 <td>PHP cURL</td>
 
-<td>Required. (Curl Library, Curl_init Function and Curl_exec)</td>
+<td>Gerekli. (Curl Kütüphanesi, Curl_init Fonksiyonu ve Curl_exec)</td>
 
 </tr>
 
@@ -82,7 +82,7 @@
 
 <td>PHP OpenSSL</td>
 
-<td>Required. (For secure data encryption.)</td>
+<td>Gerekli. (Güvenli veri şifrelemesi için.)</td>
 
 </tr>
 
@@ -90,7 +90,7 @@
 
 <td>PHP PDO</td>
 
-<td>Required. (To create secure connection to MySQL server)</td>
+<td>Gerekli. (MySQL sunucusuna güvenli bağlantı oluşturmak için)</td>
 
 </tr>
 
@@ -98,7 +98,7 @@
 
 <td>Zip</td>
 
-<td>PHP zip extension is required (for updating, installing etc)</td>
+<td>PHP zip uzantısı gereklidir (güncelleme, kurulum vb. için)</td>
 
 </tr>
 
@@ -106,71 +106,71 @@
 
 <td>PHP CURL</td>
 
-<td>PHP CURL extension is required</td>
+<td>PHP CURL uzantısı gereklidir</td>
 
 </tr>
 
 <tr>
 
-<td>Mod Rewrite Enabled</td>
+<td>Mod Rewrite Etkin</td>
 
-<td>Required</td>
-
-</tr>
-
-<tr>
-
-<td>Mbstring PHP Extension</td>
-
-<td>Required</td>
+<td>Gerekli</td>
 
 </tr>
 
 <tr>
 
-<td>XML PHP Extension</td>
+<td>Mbstring PHP Uzantısı</td>
 
-<td>Required</td>
-
-</tr>
-
-<tr>
-
-<td>Tokenizer PHP Extension</td>
-
-<td>Required</td>
+<td>Gerekli</td>
 
 </tr>
 
 <tr>
 
-<td>JSON PHP Extension</td>
+<td>XML PHP Uzantısı</td>
 
-<td>Required</td>
-
-</tr>
-
-<tr>
-
-<td>Ctype PHP Extension</td>
-
-<td>Required</td>
+<td>Gerekli</td>
 
 </tr>
 
 <tr>
 
-<td>BCMath PHP Extension</td>
+<td>Tokenizer PHP Uzantısı</td>
 
-<td>Required</td>
+<td>Gerekli</td>
 
 </tr>
 
 <tr>
 
-<td>Fileinfo PHP Extension</td>
+<td>JSON PHP Uzantısı</td>
 
-<td>Required</td>
+<td>Gerekli</td>
+
+</tr>
+
+<tr>
+
+<td>Ctype PHP Uzantısı</td>
+
+<td>Gerekli</td>
+
+</tr>
+
+<tr>
+
+<td>BCMath PHP Uzantısı</td>
+
+<td>Gerekli</td>
+
+</tr>
+
+<tr>
+
+<td>Fileinfo PHP Uzantısı</td>
+
+<td>Gerekli</td>
 
 </tr>
 
@@ -182,100 +182,100 @@
 
 <section class="my-3" id="section-install">
 
-# How to install
+# Nasıl Kurulur
 
-To Install the script follow the guide below :
-<div class="font-weight-bold">Step 1 - clone repository to local machine.</div>
+Betik kurulumu için aşağıdaki kılavuzu takip edin:
+<div class="font-weight-bold">Adım 1 - depoyu yerel makineye klonlayın.</div>
     <pre>git clone https://github.com/mediarayek-me/smmbooster.git</pre>
 
-<div class="font-weight-bold">Step 2 - in your project directory run.</div>
+<div class="font-weight-bold">Adım 2 - projeniz dizininde çalıştırın.</div>
     <pre>composer install && npm install</pre>
-    <div>  to generate vendor and node_modules directories </div> <br>
+    <div>  vendor ve node_modules dizinlerini oluşturmak için </div> <br>
     
   
-<div class="font-weight-bold">Step 3 - to test the script in your local machine just run.</div>
+<div class="font-weight-bold">Adım 3 - betiği yerel makinenizde test etmek için sadece çalıştırın.</div>
     <pre>php artisan serve</pre>
     <br> <br>
-   <div class="font-weight-bold">Step 4 - create a new database.</div>
- <div class="font-weight-bold">Step 5 - Fill out all the requested informations. and click Finish</div>
+   <div class="font-weight-bold">Adım 4 - yeni bir veritabanı oluşturun.</div>
+ <div class="font-weight-bold">Adım 5 - Tüm istenen bilgileri doldurun ve Tamam'a tıklayın</div>
     
     
-  <h3>to test in your live server</h3>
-<div class="font-weight-bold">Step 0 - create a new database in your hosting account.</div>
+  <h3>canlı sunucunuzda test etmek için</h3>
+<div class="font-weight-bold">Adım 0 - hosting hesabınızda yeni bir veritabanı oluşturun.</div>
 
-<div class="font-weight-bold">Step 1 - upload all project files in your web hosting. </div>
+<div class="font-weight-bold">Adım 1 - tüm proje dosyalarını web hostinginize yükleyin. </div>
 
-<div class="font-weight-bold">Step 2 - Open your browser and go to installation page. (In this case, it is `www.yourdomain.com` ) </div>
+<div class="font-weight-bold">Adım 2 - Tarayıcınızı açın ve kurulum sayfasına gidin. (Bu durumda `www.domain.com` ) </div>
 
-<div class="font-weight-bold">Step 3 - Fill out all the requested informations.</div>
-After redirecting to installation page, you have to fill all requested informations (database name, database password ...etc)
-<div class="font-weight-bold">Step 4 - Finish Installation.</div>
-Click Finish Button after filling all requested informations on the step 3\. You will see successfully message after few seconds, if everything is ok.
- <div class="font-weight-bold">Step 5 -  enjoy 😃 .</div>
+<div class="font-weight-bold">Adım 3 - Tüm istenen bilgileri doldurun.</div>
+Yönlendirildikten sonra, tüm istenen bilgileri doldurmanız gerekecek (veritabanı adı, veritabanı şifresi... vb.)
+<div class="font-weight-bold">Adım 4 - Kurulumu Tamamla.</div>
+3\. adımdaki tüm istenen bilgileri doldurduktan sonra Tamam'a tıklayın. Her şey yolundaysa birkaç saniye sonra başarıyla mesajını göreceksiniz.
+ <div class="font-weight-bold">Adım 5 -  keyfini çıkarın 😃 .</div>
 
 </section>
 
 <section id="section-category">
 
-# Add category
+# Kategori Ekle
 
-Admin Panel is completely dynamic, so you can add/update categories.
+Yönetici Paneli tamamen dinamiktir, bu nedenle kategorileri ekleyip/güncelleyebilirsiniz.
 
-1.  Log into admin, Go to categories
-2.  Click add new.
-3.  Write Name of Category, description and Status which is active by default, choose sort number etc
-4.  When you want to deactivate category, just make status deactive.
-5.  Click Save button
+1.  Yönetici olarak giriş yapın, Kategorilere gidin
+2.  Yeni ekle'ye tıklayın.
+3.  Kategori Adı, açıklama ve Varsayılan olarak etkin durum seçin, sıra numarasını seçin vb.
+4.  Kategoriyi devre dışı bırakmak istediğinizde, durumu devre dışı yapın.
+5.  Kaydet'e tıklayın
 
 </section>
 
 <section id="section-service">
 
-# Add service
+# Hizmet Ekle
 
-Admin Panel is completely dynamic, so you can add/update services.
+Yönetici Paneli tamamen dinamiktir, bu nedenle hizmetleri ekleyip/güncelleyebilirsiniz.
 
-1.  Log into admin, Go to services
-2.  Click add new.
-3.  Choose service type api or normal.
-4.  Write Name of Service, description and Status which is active by default etc
-5.  Price Per Single item. Ex: price for 1 Like = 0.01 etc.
-6.  Minimum quantity - Ex: 100.
-7.  Maximum quantity - Ex: 3000.
-8.  When you want to deactivate Service, just make status deactive.
-9.  Click Save button
+1.  Yönetici olarak giriş yapın, Hizmetlere gidin
+2.  Yeni ekle'ye tıklayın.
+3.  Hizmet türünü api veya normal olarak seçin.
+4.  Hizmet Adı, açıklama ve Varsayılan olarak etkin durum seçin vb.
+5.  Tek ürün başına fiyat. Örn: 1 Beğeni için fiyat = 0.01 vb.
+6.  Minimum miktar - Örn: 100.
+7.  Maksimum miktar - Örn: 3000.
+8.  Hizmeti devre dışı bırakmak istediğinizde, durumu devre dışı yapın.
+9.  Kaydet'e tıklayın
 
 </section>
 
 <section id="section-order">
 
-# Add order
+# Sipariş Ekle
 
-Any User can place new order.
+Herhangi bir Kullanıcı yeni sipariş verebilir.
 
-1.  Log into admin, Go to orders
-2.  Choose order category.
-3.  Select a service.
-4.  Add a valid link.
-5.  Add quantity.
-6.  Click Save button
+1.  Yönetici olarak giriş yapın, Siparişlere gidin
+2.  Sipariş kategorisi seçin.
+3.  Bir hizmet seçin.
+4.  Geçerli bir bağlantı ekleyin.
+5.  Miktar ekleyin.
+6.  Kaydet'e tıklayın
 
 </section>
 
 <section id="section-api">
 
-# Add new API provider
+# Yeni API Sağlayıcı Ekle
 
-Any Admin can place new API provider.
+Herhangi bir Yönetici yeni API sağlayabilir.
 
-1.  Log into admin, Go to API providers
-2.  add name and URL .
-3.  add Api key provided by the api provider.
-4.  When you want to deactivate Service, just make status deactive.
-5.  Click Save button
-6.  You will see the api is connected and the api will fetch all the service and categories automatically
+1.  Yönetici olarak giriş yapın, API sağlayıcılara gidin
+2.  ad ve URL ekleyin .
+3.  api sağlayıcı tarafından sağlanan Api anahtarını ekleyin.
+4.  Hizmeti devre dışı bırakmak istediğinizde, durumu devre dışı yapın.
+5.  Kaydet'e tıklayın
+6.  Api'nin bağlandığını ve api'nin otomatik olarak tüm hizmet ve kategorileri çekeceğini göreceksiniz
 
-the script is compatible with the most many smm panels if you want to resell services.
+betik, birçok smm paneli ile uyumludur, eğer hizmetleri yeniden satmak istiyorsanız.
 
 *   [MOMO panel](https://momopanel.com/)
 *   [VINA SMM](https://vinasmm.com/)
@@ -285,81 +285,80 @@ the script is compatible with the most many smm panels if you want to resell ser
 
 <section id="section-settings">
 
-# Adjust settings
+# Ayarları Düzenle
 
-There are many settings that an admin can change as needed.
+Yöneticinin ihtiyacına göre birçok ayarı değiştirebileceği ayarlar bulunmaktadır.
 
-1.  general Settings : to adjust general settings.
-2.  Service Settings : to adjust service settings.
-3.  Appearance Settings : to adjust appearance settings.
-4.  Languages : to add new language or adjust any existing languages.
-5.  Seo Manager : to adjust seo and and meta informations and key words.
-6.  Terms and Policy : to adjust terms and policy pages.
-7.  Email Settings : to adjust emails templates.
-8.  Faqs : to manage faqs.
-9.  Announcements : to manage announcements.
+1.  Genel Ayarlar: genel ayarları düzenlemek için.
+2.  Hizmet Ayarları: hizmet ayarlarını düzenlemek için.
+3.  Görünüm Ayarları: görünüm ayarlarını düzenlemek için.
+4.  Diller: yeni dil eklemek veya mevcut dilleri düzenlemek için.
+5.  Seo Yöneticisi: seo ve meta bilgilerini ve anahtar kelimeleri düzenlemek için.
+6.  Şartlar ve Politika: şartlar ve politika sayfalarını düzenlemek için.
+7.  E-posta Ayarları: e-posta şablonlarını düzenlemek için.
+8.  SSS: sss'leri yönetmek için.
+9.  Duyurular: duyuruları yönetmek için.
 
 </section>
 
 <section id="section-integrations">
 
-# Integrations
+# Entegrasyonlar
 
-### Paypal Integration
+### Paypal Entegrasyonu
 
-create PayPal API Client ID and Client Secret :
+PayPal API Client ID ve Client Secret oluşturun:
 
-1.  Open the following website [https://developer.paypal.com](https://developer.paypal.com) and click on "Log into Dashboard".
-2.  After you have logged in, create a Sandbox Business Account to be able to make test payments later.
-3.  If you have created a sandbox account, click on "My Apps and Credentials" in the menu on the left and then on "Create App"
-4.  Give your Paypal app a name and choose your previously created developer (sandbox) account. After you have finished, click on "Create App".
-5.  As soon as the app is created, the details of the app you just created will open. You should now see the Client ID and an option (Show) below to see the Secret Key.
-6.  switch between Live and Sandbox click first on "My Apps & Credentials" in the left main menu then click on Live or Sandbox and then on the desired app you want to know the Client and Secret keys. Note that Sandbox and Live have different Client IDs and Secret Keys.
+1.  Aşağıdaki web sitesini açın [https://developer.paypal.com](https://developer.paypal.com) ve "Giriş Yap" üzerine tıklayın.
+2.  Giriş yaptıktan sonra, test ödemeleri yapabilmek için bir Sandbox İşletme Hesabı oluşturun.
+3.  Eğer bir sandbox hesabı oluşturduysanız, "My Apps and Credentials" menüsüne gidin ve ardından "Create App"e tıklayın.
+4.  Paypal uygulamanıza bir ad verin ve önceden oluşturduğunuz geliştirici (sandbox) hesabınızı seçin. Tamamlandığında, "Create App"e tıklayın.
+5.  Uygulama oluşturulduğunda, şimdi oluşturduğunuz uygulamanın ayrıntılarını göreceksiniz. Şimdi Client ID'yi ve Secret Key'i görmek için bir seçenek (Göster) bulmalısınız.
+6. Canlı ve Sandbox arasında geçiş yapmak için önce sol ana menüde "My Apps & Credentials" üzerine tıklayın, ardından Canlı veya Sandbox'a tıklayın ve istediğiniz uygulamaya gidin. Unutmayın ki Sandbox ve Canlı, farklı Client ID'leri ve Secret Keys'e sahiptir.
 
-enable Paypal payment method :
+Paypal ödeme yöntemini etkinleştirme:
 
-1.  Log into admin, Go to Payments Methods
-2.  choose paypal.
-3.  Edit your paypal parameters.
+1. Yönetici hesabına giriş yapın, Ödeme Yöntemlerine gidin
+2. Paypal'ı seçin.
+3. Paypal parametrelerinizi düzenleyin.
 
-### Stripe Integration
+### Stripe Entegrasyonu
 
-Get Credentials for Stripe Connect Payments :
+Stripe Connect Ödemeleri için Kimlik Bilgilerini Alın:
 
-1.  Log in to your Stripe account or create a new one at the [Stripe website](https://stripe.com/).
-2.  Choose Settings and then select API keys on the sidebar of the Stripe dashboard.
-3.  On the API keys page find the Publishable key and Secret key fields and copy their values.
+1. Stripe hesabınıza giriş yapın veya [Stripe web sitesinde](https://stripe.com/) yeni bir tane oluşturun.
+2. Ayarları seçin ve ardından Stripe gösterge panelinin kenar çubuğunda API anahtarlarını seçin.
+3. API anahtarları sayfasında, Yayınlanabilir anahtar ve Gizli anahtar alanlarını bulun ve değerlerini kopyalayın.
 
-enable Paypal payment method :
+Stripe ödeme yöntemini etkinleştirme:
 
-1.  Log into admin, Go to Payments Methods
-2.  Choose Stripe.
-3.  Paste these keys into the corresponding fields of the Stripe Connect payment method settings.
+1. Yönetici hesabına giriş yapın, Ödeme Yöntemlerine gidin
+2. Stripe'ı seçin.
+3. Bu anahtarları Stripe Connect ödeme yöntemi ayarlarının ilgili alanlarına yapıştırın.
 
 </section>
 
 <section id="section-support">
 
-# Support & Tickets
+# Destek & Talepler
 
-To answer your customers tickets or create new one.
+Müşteri taleplerinizi yanıtlamak veya yeni talep oluşturmak için:
 
-1.  Log into admin, Go to tickets
-2.  Select ticket to answer or click new to add new ticket
-3.  Every time ticket status changed you well see notification in your dashboard
+1. Yönetici hesabına giriş yapın, Biletler'e gidin
+2. Cevaplamak için bilet seçin veya yeni bir bilet eklemek için "Yeni"ye tıklayın
+3. Bilet durumu her değiştiğinde, panelinizde bildirim görürsünüz
 
 </section>
 
 <section class="mb-4" id="section-changelog">
 
-# Testing
+# Test
 
-For testing just run :
-    
+Sadece test için şunları çalıştırın:
+
 <pre>php .\vendor\bin\phpUnit</pre>
 
 </section>
 
-
-
 </div>
+
